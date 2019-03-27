@@ -3,3 +3,10 @@
 <button type="button" onclick="printJS('test.pdf')">
     Print PDF
  </button>
+
+<button onclick="document.getElementById('pdf1').print()">Print</button>
+<embed type="application/pdf" width="400px" height="400px" src="test.pdf" id="pdf1"/> 
+
+<button onclick="document.getElementById('pdf2').print()">Print</button>
+<object type="application/pdf" width="400px" height="400px" data="test.pdf" id="pdf2"/> 
+
