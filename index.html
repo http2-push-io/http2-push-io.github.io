@@ -1,7 +1,5 @@
-<button onclick="document.getElementById('pdf').focus(); document.getElementById('pdf').contentWindow.print()">Print</button>
+ <script src="print.js"></script>
 
-<iframe
-    src="test.pdf"
-    id="pdf"
-    width="400px"
-        height="400px"></iframe>
+<button type="button" onclick="printJS('test.pdf')">
+    Print PDF
+ </button>
